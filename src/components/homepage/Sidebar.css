@@ -1,0 +1,46 @@
+.sidebar {
+	flex: 0.7;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+	border-right: 1px solid lightgrey;
+}
+.darktheme {
+	flex: 0.7;
+	background: linear-gradient(
+		hsl(12, 6%, 16%) 60%,
+		hsl(219, 61%, 14%)
+	) !important;
+
+	color: lightgrey !important;
+	box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+	border-right: 1px solid lightgrey;
+}
+.sidebar__page {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 100%;
+	margin-top: 2rem;
+}
+.sidebar__links {
+	list-style: none;
+	text-decoration: none;
+}
+.sidebar__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.5rem;
+}
+
+p {
+	font-size: 0.9rem;
+	font-weight: bold;
+	font-family: 'sans' serif;
+	text-align: left;
+	border-bottom: 1px solid lightgrey;
+}
+.title {
+	color: rgb(144, 141, 141);
+	opacity: 0.8;
+}
